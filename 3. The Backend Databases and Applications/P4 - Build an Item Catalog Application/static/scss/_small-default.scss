@@ -1,0 +1,149 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* -------------------- NAVBAR --------------------------- */
+header{
+  .navbar-brand {
+  	padding-left: 1em;
+  	font-size: 1.3em;
+
+  }
+
+  .login {
+  	padding-right: 1.4em;
+  }
+
+  .navbar-nav {
+  	font-size: 1em;
+  }
+
+  .nav-item {
+  	padding-right: 0.2em;
+  	padding-left: 0.2em;
+  }
+
+  ul li a {
+    display: black;
+    text-align: center;
+    padding: 0.5rem 0;
+    transition: back-ground 0.75 ease, color 0.75s ease;
+  }
+
+
+  form {
+    float:right;
+    padding: 0.5rem 0;
+  }
+  form input {
+        text-align: center;
+        width: 4rem;
+        border-radius: 10px;
+        margin-right:2%;
+        padding: .2rem;
+        border: none;
+        transition: width .5s;
+
+    }
+  .form-control:not(:focus) {width:10rem;}
+
+}
+/* -------------------- HEADER  --------------------------- */
+
+.jumbotron {
+     padding-top: 2em;
+     padding-right:0;
+     padding-left: 0;
+}
+
+.jumbotron-item {
+    padding-top: 5em;
+    padding-right:2em;
+    padding-left: 2em;
+
+}
+
+.title {
+    font-family: "Noto Sans Japanese", bold;
+    font-size: 2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+
+}
+
+.fadeAway {
+  background: linear-gradient(to right, rgba(66,78,100,1)
+  0%, rgba(66,78,100,0.01)100%);
+  height: 2px;
+  border: none;
+  margin:0 2%;
+
+}
+
+.lead-jumbotron {
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 0.25em;
+    padding-bottom: 0.5em;
+
+}
+
+.text-home {
+    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.lead {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+
+/* -------------------- BODY ------------------------------ */
+
+
+
+
+.container-fluid{
+  padding-top: 5em;
+}
+
+.container-main{
+  margin-top: 5em;
+}
+
+.img-main {
+  padding: 5px;
+}
+
+
+/* -------------------- FOOTER ------------------------------ */
+
+footer {
+    position: fixed;
+    padding-top: 5px;
+    font-size: 0.5em;
+    clear:both;
+    width: 100%;
+    bottom:0px;
+    z-index: 0;
+
+    background-color: $primaryColor;
+
+    p {
+        text-align: center;
+        font-size:1.2em;
+        color: $secondaryColor;
+        padding: .75rem 0;
+
+    } // end p
+
+    p a {color: $secondaryColor;}
+
+} // end footer
