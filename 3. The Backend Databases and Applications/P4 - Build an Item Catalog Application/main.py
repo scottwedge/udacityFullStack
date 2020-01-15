@@ -1,4 +1,4 @@
-# Improt Flask class from Flask libary
+# Import Flask class from Flask libary
 from datetime import datetime
 from flask import Flask, render_template, url_for, request, redirect, jsonify, make_response, flash
 from flask import make_response
