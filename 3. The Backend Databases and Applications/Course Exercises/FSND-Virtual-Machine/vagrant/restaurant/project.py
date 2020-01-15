@@ -1,4 +1,4 @@
-# Improt Flask class from Flask libary
+# Import Flask class from Flask libary
 from flask import Flask, render_template, request, redirect, url_for, flash
 # Create instance of the class
 # With the name of the running application as argument
